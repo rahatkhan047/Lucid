@@ -1,0 +1,545 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* Header Part Strat */
+header{
+    background-image: url(../images/Header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.nav-link{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 13px;
+}
+.nav-link:hover{
+    color: #008ed6;
+
+}
+.height{
+    min-height: 98vh;
+    align-items: center;
+    position: relative;
+}
+.header_left{
+    color: white;
+}
+.header_left h2{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #008ed6;
+    font-weight: 700;
+    padding-bottom: 15px;
+    letter-spacing: 1.2px;
+}
+.header_left h1{
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.header_left p{
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    color: #c6ccd0;
+}
+.btn-download{
+    background-color: #008ed6;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 17px 22px;
+    font-weight: 600;
+    color: white;
+    line-height: 14px;
+    border-radius: 3px;
+    margin-right: 20px;
+    transition: .4s all ease-in-out;
+}
+.btn-download:hover{
+    border: 1px solid #fff;
+    color: white;
+}
+.header_right{
+    position: absolute;
+    bottom: 0;
+    right: -4%;
+}
+/* Header Part End */
+/* Feture Part Start */
+.feture{
+    padding: 50px 0;
+}
+.feture h2{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #008ed6;
+    font-weight: 700;
+    padding-bottom: 10px;
+    letter-spacing: 1.2px;
+}
+.feture h1{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.feture span{
+    display: block;
+    width: 25px; 
+    height: 2px;
+    background: #008ed6;
+    margin: 0 2px;
+}
+.lucid_span{
+    display: flex;
+    justify-content: center;
+}
+.feture_item{
+    margin-top: 70px;
+}
+.feture_icon{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #e0e0e0;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.feture_icon img{
+    margin: auto;
+}
+
+.feture_item h5{
+    margin-top: 30px;
+    font-size: 24px;
+    color: #1a1a1a;
+    font-weight: 600;
+}
+.feture_item p{
+    font-size: 18px;
+    margin-top: 15px;   
+    color: #999999;
+}
+/* Feture Part End */
+/* Device Part Start */
+.device{
+    padding: 50px 0;
+}
+.device h2{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #008ed6;
+    font-weight: 700;
+    padding-bottom: 10px;
+    letter-spacing: 1.2px;
+    margin-top: 60px;
+}
+.device h1{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.device p{
+    font-size: 18px;
+    color: #999999;
+}
+.device span{
+    display: block;
+    width: 25px;
+    height: 2px;
+    background: #008ed6;
+    margin: 0 2px;
+    margin-bottom: 30px;
+}
+.device_span{
+    display: flex;
+}
+.device_icon{
+
+}
+.device_icon ul{
+    margin-top: 35px;
+}
+.device_icon ul li{
+    display: flex;
+    margin-top: 15px;
+}
+.device_icon ul li img{
+    width: 15px;
+    margin-right: 15px;}
+.device_icon ul li h6{
+    
+}
+/* Device Part Start */
+/* The Details Part Start */
+.the_details{
+    background: #f2f2f2;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+.the_details h2{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #008ed6;
+    font-weight: 700;
+    padding-bottom: 10px;
+    letter-spacing: 1.2px;
+}
+.the_details h1{
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.the_details p{
+    font-size: 18px;
+    color: #999999;
+}
+.details_span{
+    display: flex;
+}
+.the_details span{
+    display: block;
+    width: 25px;
+    height: 2px;
+    background: #008ed6;
+    margin: 0 2px;
+    margin-bottom: 30px;
+}
+/* The Details Part Start */
+/* Quality Part Start */
+.quality{
+    background-image: url(../images/quality-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 150px;
+}
+.quality h2{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #008ed6;
+    font-weight: 700;
+    padding-bottom: 10px;
+    letter-spacing: 1.2px;
+    margin-top: 50px;
+}
+.quality h1{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: white;
+}
+.quality_span span{
+    display: block;
+    width: 25px;
+    height: 2px;
+    background: #008ed6;
+    margin: 0 2px;
+    margin-bottom: 30px;
+
+}
+.quality_span{
+    display: flex;
+    justify-content: center;
+}
+.quality p{
+    color: white;
+    font-size: 21px;
+    font-weight: 300;
+}
+.John_Doe{  
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.John_Doe img{
+    margin-right: 20px;
+}
+.John_Doe h6{
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.John_Doe h5{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+.owl-carousel .owl-item .quality_main img {
+    display: block;
+    width: 10%;
+}
+.owl-dots .owl-dot span{
+    display: block;
+    height: 8px;
+    width: 8px;
+    background-color: transparent;
+    border-radius: 50px;
+    margin: 4px;
+    border: 1px solid #646464;
+}
+.owl-dots .owl-dot.active span{
+    background-color:#c6ccd0 ;
+}
+.owl-dots{
+    position: absolute;
+    bottom: -125px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* Quality Part Start */
+/* What You See Part Start */
+.what_you_see{
+    padding: 50px 0;
+    background-color: #15141a;
+}
+.what_you_see h2{
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+}
+.what_you_see span{
+    font-weight: 300;
+}
+/* What You See Part End */
+/* Pricings & Plans Part Start */
+.pricing_plan{
+    padding: 50px 0;
+
+}
+.pricing_item:hover h1{
+    color: #008ed6;
+}
+.pricing_plan h2{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #008ed6;
+    font-weight: 700;
+    padding-bottom: 10px;
+    letter-spacing: 1.2px;
+}
+.pricing_plan h1{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: rgb(0, 0, 0);
+}
+.pricing_item{
+    border: 1px solid #e0e0e0;
+}
+    .pricing_item h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin: 15px 0;
+    transition: .5s all ease-in-out;
+    color: #1a1a1a;
+}
+.pricing_item span{
+    color: #008ed6;
+}
+.per_month{
+    padding: 25px;
+    background-color: white;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    transition: .5s all ease-in-out;
+}
+.pricing_item:hover .per_month{
+    background-color: #008ed6;
+}
+.pricing_item:hover .per_month h2{
+    color: #fff;
+}
+.pricing_item:hover .per_month h6{
+    color: #fff;
+}
+.pricing_item:hover .btn-order_now{
+    background-color: #008ed6;
+    color: #fff;
+}
+.per_month h2{
+    margin: 0;
+    font-size: 50px;
+    color: #1a1a1a;
+}
+.per_month sup{
+
+}
+.per_month h6{ 
+    color: #fff;
+    font-size: 100%;
+    color: #999999;
+}
+.pricing_item p{
+    font-size: 19px;
+    margin: 50px 26px;
+    color: #999999;
+}
+.btn-order_now{
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 17px 22px;
+    font-weight: 600;
+    color: #008ed6;
+    line-height: 14px;
+    border-radius: 3px;
+    border: 1px solid #e0e0e0;
+    transition: .5s all ease-in-out;
+    margin-bottom: 40px;
+}
+.btn-order_now:hover{
+    background-color: #008ed6;
+    color: #fff;
+}
+/* Pricings & Plans Part End */
+/* Contact Part Start */
+.contact_us{
+    background-color:#ededed;
+    padding-top: 50px;
+    position: relative;
+}
+.contact_us h2{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #008ed6;
+    font-weight: 700;
+    padding-bottom: 10px;
+    letter-spacing: 1.2px;
+    
+}
+.contact_us h1{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 25px;
+color: rgb(0, 0, 0);
+    
+}
+.contact_us h6{
+    color: #999999;
+}
+.contact_us i{
+    font-size: 22px;
+    margin-bottom: 20px; 
+    color: #008ed6; 
+    margin-top: 15px;
+}
+.contact_us_pd{
+    padding-bottom: 300px;
+}
+.form_area{
+    width: 60%;
+    height: 350px;
+    background-color: #15141a;
+    padding: 50px 70px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%);
+}
+.main_form{
+    display: flex;
+    justify-content: space-between;
+}
+.form_first{
+    width: 48%;
+}
+.form_first input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid #444348;
+    border-radius: 3px;
+    outline: none;
+    color: #fff;
+}
+
+.form_last{
+    width: 48%;
+}
+.form_last textarea{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #444348;
+    height: 177px;
+    outline: none;
+    padding: 15px;
+    color: #fff;
+}
+.form_last textarea::placeholder{
+    font-size: 14px;
+    font-weight: 600;
+}
+.form_first input::placeholder{
+    font-size: 14px;
+    font-weight: 600;
+}
+.btn-message{
+    background-color: #008ed6;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 17px 22px;
+    font-weight: 600;
+    color: white;
+    line-height: 14px;
+    border-radius: 3px;
+    transition: .4s all ease-in-out;
+    display: table;
+}
+.btn-message:hover{
+    background-color: transparent;
+    border: 1px solid #444348;
+    color: #fff;
+}
+iframe{
+    width: 100%;
+    height: 300px;
+}
+/* Contact Part End */
+/* Footer Part Start */
+footer{
+    padding: 40px 0;
+    background-color: black;
+}
+footer{
+
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+footer ul li{
+
+}
+footer ul li a{
+    margin: 0 10px;
+    color: #444348;
+    transition: .5s all ease-in-out;
+    font-size: 18px;
+}
+footer ul li a:hover{
+    color: #008ed6;
+}
+footer h5{
+    text-transform: uppercase;
+    font-size: 14px;  
+    font-weight: 700;
+    margin-top: 20px;
+}
+/* Footer Part Start */
